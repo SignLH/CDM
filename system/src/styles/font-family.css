@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "time";
+    src: url('./font/time.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "YouSheBiaoTiHei";
+    src: url('./font/YouSheBiaoTiHei-2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Rajdhani-Bold";
+    src: url('./font/Rajdhani-Bold-4.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Rajdhani-Light";
+    src: url('./font/Rajdhani-Light-6.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Rajdhani-Medium";
+    src: url('./font/Rajdhani-Medium-3.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Rajdhani-Regular";
+    src: url('./font/Rajdhani-Regular-2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Rajdhani-SemiBold";
+    src: url('./font/Rajdhani-SemiBold-5.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

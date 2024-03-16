@@ -1,0 +1,21 @@
+//全局过度样式
+
+//显示动画
+
+.animation-left-out {
+  transition: all .5s linear;
+  transform: translateX(0);
+}
+.animation-left-in {
+  transition: all .5s linear;
+  transform: translateX(570px);
+}
+
+.animation-right-out {
+  transition: all .5s linear;
+  transform: translateX(0);
+}
+.animation-right-in {
+  transition: all .5s linear;
+  transform: translateX(-570px);
+}

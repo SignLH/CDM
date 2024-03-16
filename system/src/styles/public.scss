@@ -1,0 +1,115 @@
+// === 该项目通用模块样式 ===
+//热点停车通用样式
+.rdtc-view-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 8px 20px;
+    display: flex;
+    overflow: hidden;
+
+    .rdtc-item {
+        flex-shrink: 0;
+        height: 100%;
+        width: calc((100% - 20px) / 3);
+        background: linear-gradient(to top, #001029ce, #00102900);
+        padding: 5px 8px;
+
+        .content {
+            margin-top: 5px;
+
+            .con-item {
+                margin-top: 10px;
+                padding-left: 43px;
+                position: relative;
+
+                .item-label {
+                    color: #ffffff;
+                    font-size: 12px;
+                }
+
+                .item-number {
+                    color: #ffffff;
+                    font-size: 18px;
+                    font-family: Rajdhani-SemiBold;
+
+                    .syl {
+                        color: #0BFFA6;
+                        margin-top: 1px;
+                    }
+                }
+
+                .item-img-small {
+                    width: 35px;
+                    height: 35px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+
+                .item-img-big {
+                    width: 60px;
+                    height: 60px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+            }
+        }
+    }
+
+    .rdtc-item+.rdtc-item {
+        margin-left: 10px;
+    }
+
+    .page{
+        position: absolute;
+        height: 16px;
+        width: auto;
+        top: calc(50% - 8px);
+    }
+    .page.left{
+        left: -2px;
+    }
+    .page.right{
+        right: -2px;
+    }
+    .page:hover{
+        height: 18px;
+        top: calc(50% - 9px);
+        cursor: pointer;
+    }
+}
+
+//重点监控通用样式
+.zdjk-view-inner {
+    width: 100%;
+    height: 100%;
+    padding: 15px 12px;
+    display: flex;
+    overflow: hidden;
+
+    .zdjk-item {
+        flex-shrink: 0;
+        height: 100%;
+        width: calc((100% - 20px) / 3);
+
+        .media {
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+        }
+    }
+
+    .zdjk-item+.zdjk-item {
+        margin-left: 10px;
+    }
+}
+
+
+//echarts 通用back
+.echarts-view{
+    width: 100%;
+    height: 100%;
+    background: #0000002f;
+}

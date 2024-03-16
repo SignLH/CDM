@@ -1,0 +1,44 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+
+  // width: 3840px;
+  // height: 1080px;
+
+  box-sizing: border-box;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.click {
+  cursor: pointer;
+}
+
+
+//通用模块样式
+@import './public.scss';
+
+//table 样式
+@import './table.scss';
+
+//过渡动画样式
+@import './transition.scss';
+
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
